@@ -35,13 +35,27 @@ export default function Calculos() {
                 <h1 className="text-5xl">Mitologia e Cronologia:</h1>
                 <p className="text-2xl">Velikovsky relaciona eventos mitológicos a fenômenos astronômicos, tentando calcular datas para eventos históricos significativos, como as pragas do Egito ou a queda de civilizações.</p>
                 <h2 className="text-4xl">Cálculo:</h2>
-                <p className="text-2xl">T = A + B</p>
+                <p className="text-2xl">T=k⋅a3</p>
+                <figure>
+                    <Image
+                        src="/img/PragasDoEgito.png"
+                        width={500}
+                        height={500}
+                        alt="Pragas do Egito"
+                    />
+                </figure>
             </div>
             <div className="flex flex-col gap-2 bg-gray-100 p-4 rounded shadow">
                 <h1 className="text-5xl">Mudanças Climáticas:</h1>
                 <p className="text-2xl">Ele sugere que as interações planetárias poderiam ter causado mudanças climáticas drásticas, influenciando a história humana.</p>
                 <h2 className="text-4xl">Cálculo:</h2>
                 <p className="text-2xl">ΔT = ∑ (ΔT_i)</p>
+                <Image
+                        src="/img/VariacaoTemp.png"
+                        width={500}
+                        height={500}
+                        alt="Variação de Temperatura"
+                    />
             </div>
         </div>
     );
