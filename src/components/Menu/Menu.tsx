@@ -1,6 +1,6 @@
 import Link from "next/link"
 
-const Menu = ()=>{
+const Menu = () => {
 
     return(
         <nav className="flex w-2/3 flex-row gap-5 justify-around">
