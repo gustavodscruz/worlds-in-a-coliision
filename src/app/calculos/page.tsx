@@ -13,7 +13,7 @@ export default function Calculos() {
                         src="/img/Trajetoria.jpg"
                         width={500}
                         height={500}
-                        alt="Júpiter"
+                        alt=" exemplo de Trajetória"
                     />
                 </figure>
             </div>
@@ -22,6 +22,14 @@ export default function Calculos() {
                 <p className="text-2xl">Ele discute os efeitos da gravidade nas interações entre os planetas e a Terra, sugerindo que a atração gravitacional poderia ter causado catástrofes, como inundações e terremotos.</p>
                 <h2 className="text-4xl">Cálculo:</h2>
                 <p className="text-2xl">F = G (m1 * m2) / r²</p>
+                <figure>
+                    <Image
+                        src="/img/ForcGravitacional.webp"
+                        width={500}
+                        height={500}
+                        alt=" exemplo de Força Gravitacional"
+                    />
+                </figure>
             </div>
             <div className="flex flex-col gap-2 bg-gray-100 p-4 rounded shadow">
                 <h1 className="text-5xl">Mitologia e Cronologia:</h1>
