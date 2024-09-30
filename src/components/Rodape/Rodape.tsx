@@ -2,7 +2,7 @@ const Rodape = () => {
 
 
     return (
-        <footer className="w-full flex flex-row justify-between p-7 bg-slate-400">
+        <footer className="w-full flex flex-row justify-between p-7 bg-slate-400 bottom-0">
             <h1>Rodapé</h1>
             <ul>
                 Integrantes:
