@@ -3,7 +3,7 @@ import Link from "next/link"
 const Menu = ()=>{
 
     return(
-        <nav>
+        <nav className="flex w-1/2 flex-row justify-around">
             <Link href={"/"}></Link>
             <Link href={"/catastrofismo"}>Pagina Principal</Link>
             <Link href={"/darwin"}>Teoria Da Evolução de Darwin</Link>
