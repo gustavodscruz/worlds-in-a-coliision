@@ -23,7 +23,7 @@ const Page = () => {
               src="/img/Immanuel_Velikovsky.jpg"
               width={500}
               height={500}
-              alt="Júpiter"
+              alt="Immanuel Velikovsky"
             />
           </div>
         </div>

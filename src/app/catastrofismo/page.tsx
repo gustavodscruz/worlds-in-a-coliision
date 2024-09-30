@@ -19,7 +19,7 @@ const Catastrofismo = ()=>{
                         src="/img/catastrofismo.jpeg"
                         width={350}
                         height={350}
-                        alt="Evolucionismo"
+                        alt="Catastrofismo"
                     />
                 </div>
             </section>
