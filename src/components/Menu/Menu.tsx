@@ -1,8 +1,8 @@
 import Link from "next/link"
 
-const Menu = ()=>{
+const Menu = () => {
 
-    return(
+    return (
         <nav className="flex w-1/2 flex-row justify-around">
             <Link href={"/"}>Pagina Principal</Link>
             <Link href={"/catastrofismo"}>Catastrofismo</Link>
