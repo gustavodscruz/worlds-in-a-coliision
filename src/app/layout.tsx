@@ -1,5 +1,7 @@
+import Cabecalho from "@/components/Cabecalho/Cabecalho";
 import type { Metadata } from "next";
 import "./globals.css";
+import Rodape from "@/components/Rodape/Rodape";
 
 
 export const metadata: Metadata = {
@@ -13,9 +15,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pt-br">
       <body>
+        <Cabecalho />
         {children}
+        <Rodape />
       </body>
     </html>
   );
