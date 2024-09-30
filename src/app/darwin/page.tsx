@@ -3,7 +3,7 @@
 const Darwin = ()=>{
 
     return(
-        <div className="p-10">
+        <div className="flex flex-col gap-7 p-10">
             <h1 className="font-bold text-4xl mb-10">Teoria da Evolução de Darwin</h1>
             <section className="h-72">
                 <div className="w-1/2">
