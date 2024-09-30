@@ -7,7 +7,7 @@ const Menu = ()=>{
             <Link href={"/"}></Link>
             <Link href={"/catastrofismo"}>Pagina Principal</Link>
             <Link href={"/darwin"}>Teoria Da Evolução de Darwin</Link>
-            <Link href={"/sitema"}>Sistema Solar</Link>
+            <Link href={"/sistema"}>Sistema Solar</Link>
             <Link href={"/calculo"}>Calculos</Link>
         </nav>
     )
