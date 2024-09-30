@@ -1,14 +1,11 @@
 import { promises as fs} from "fs"
 import { NextResponse } from "next/server";
 
-type TipoProduto = {
-    id:number;
-    nome:string;
-    preco: number;
-    estoque : number;
-}
+
 
 export async function GET(request:Request,{params}:{params:{pagina:string}}){
+    const file = await fs.readFile(process.cwd() + '/src/data/base.json','utf-8');
+    const produtos = JSON.parse(file);    return NextResponse.json(produtos);
     let response;
     switch(params.pagina){
         case 'sistema':

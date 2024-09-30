@@ -4,31 +4,27 @@ import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 
 const SistemaSolar = () => {
-    const [img, setImg] = useState('')
-    useEffect(() => {
-        const pegarImagem = async () => {
-            const response = await fetch('https://api.nasa.gov/planetary/earth/imagery?lon=-95.33&lat=29.78&date=2018-01-01&dim=0.15&api_key=ekeoDfiuYCcLw22QJWlVFLT4iOkzgiykmhaJhHNo');
-            const blob = await response.blob();
-
-            // Crie uma URL local para o blob
-            const imageUrl = URL.createObjectURL(blob);
-
-            if (imageUrl){
-                setImg(imageUrl)
-            }
-        }
-        pegarImagem();
-    }, [])
+    // const [img, setImg] = useState(null)
+    // useEffect(() => {
+    //     const pegarImagem = async () => {
+    //         const response = await fetch('https://localhost:3000/api/sistema');
+    //         if (!response){
+    //             setImg(response)
+    //         }
+    //     }
+    //     pegarImagem();
+    // }, [])
 
 
     return (
         <div className='m-auto flex flex-col px-4'>
             <div>
-                {img ? (
+                {/* {img ? (
                     <Image className='m-auto py-4' src={img} height={500} width={500} alt="Sistema Solar" />
                 ) : (
                     <p>Carregando imagem...</p>
-                )}
+                )} */}
+                <Image src='/img/sistema-solar.webp' alt='Sistema Solar' height={600} width={600} />
             </div>
             <div className="">
                 O sistema solar proposto por **Immanuel Velikovsky** desafia a visão tradicional da astronomia. Ele foi um psiquiatra e autor que ganhou notoriedade na década de 1950 por suas teorias controversas, particularmente em relação à história e à dinâmica do sistema solar. Em sua obra mais conhecida, *Mundos em Colisão* (1950), Velikovsky sugeriu que eventos catastróficos cósmicos moldaram a história da Terra e de outros planetas do sistema solar.
